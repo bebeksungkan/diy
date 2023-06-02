@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+ <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ <title>Message</title>
+</head>
+
+<body>
+ <!--top bar-->
+ <div class="top-bar">
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-1">
+     <a href="home.html"><img src="assets/images/logo.png" width="60px" alt="logo"></a>
+    </div>
+    <div class="col-md-1">
+     <div class="menu">
+      <a href="create.html">Create</a>
+     </div>
+    </div>
+
+    <div class="col-md-1">
+     <div class="menu">
+      <a class="active" href="message.html">Message</a>
+      <div class="container">
+        <div class="message">
+        <div class="row">
+          <div class="col-8">
+            <h5><i class="fa-solid fa-square-pen"></i> New Message</h5>
+          </div>
+            <div class="col-4">
+            <h6>Cancel</h6>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-3">
+              <img src="assets/images/man.jpg">
+            </div>
+            <div class="col-9">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="type-message">
+                  <input type="text" name="text" class="input-text" id="input" placeholder="write here">
+                  <label for="input">
+                    </label>
+                      <button class="send"><i class="fa-regular fa-paper-plane"></i>
+                      </button>
+                    </div>
+              </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+    <div class="col-md-6">
+     <!--search bar-->
+     <div class="group">
+      <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+       <g>
+        <path
+         d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+        </path>
+       </g>
+      </svg>
+      <input placeholder="Explore" type="search" class="input">
+     </div>
+     <!--end search bar-->
+    </div>
+
+    <!--followers-->
+    <div class="col-md-1">
+     <div class="top-bar-f">
+      <img src="assets/images/man.jpg" alt="man">
+      <img src="assets/images/woman.jpg" alt="woman">
+      <img src="assets/images/wedding.jpeg" alt="wedding">
+      <img src="assets/images/rocks.jpeg" alt="rock">
+      <img src="assets/images/falls2.jpeg" alt="falls">
+     </div>
+    </div>
+    <!--end followers-->
+
+
+    <!--notification-->
+    <div class="col-md-1">
+     <button class="button-bell">
+      <svg viewBox="0 0 448 512" class="bell">
+       <path
+        d="M224 0c-17.7 0-32 14.3-32 32V49.9C119.5 61.4 64 124.2 64 200v33.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V200c0-75.8-55.5-138.6-128-150.1V32c0-17.7-14.3-32-32-32zm0 96h8c57.4 0 104 46.6 104 104v33.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V200c0-57.4 46.6-104 104-104h8zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z">
+       </path>
+      </svg>
+     </button>
+    </div>
+    <!--end notification-->
+
+
+    <!--account login-->
+    <div class="col-md-1">
+     <button class="Btn-login">
+      <div class="sign"><svg viewBox="0 0 512 512">
+        <path
+         d="M377.9 105.9L500.7 228.7c7.2 7.2 11.3 17.1 11.3 27.3s-4.1 20.1-11.3 27.3L377.9 406.1c-6.4 6.4-15 9.9-24 9.9c-18.7 0-33.9-15.2-33.9-33.9l0-62.1-128 0c-17.7 0-32-14.3-32-32l0-64c0-17.7 14.3-32 32-32l128 0 0-62.1c0-18.7 15.2-33.9 33.9-33.9c9 0 17.6 3.6 24 9.9zM160 96L96 96c-17.7 0-32 14.3-32 32l0 256c0 17.7 14.3 32 32 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-53 0-96-43-96-96L0 128C0 75 43 32 96 32l64 0c17.7 0 32 14.3 32 32s-14.3 32-32 32z">
+        </path>
+       </svg></div>
+      <div class="text">Logout</div>
+     </button>
+    </div>
+    <!--end account login-->
+   </div>
+  </div>
+ </div>
+
+ <!--End top bar-->
+
+
+
+ <!--masonry-->
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-12">
+    <div class="grid-wrapper">
+     <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/FlAWdxzxU8k" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/mCcNv8vTE-I" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div class="tall">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/kQxvYAfkFyg" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div class="wide">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/b-weAVKCu7U" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/mQYL_88MOe0" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div class="tall">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/FlAWdxzxU8k" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div class="big">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/UItWltVZZmE" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/mQYL_88MOe0" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div class="wide">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4xYu2WrygtQ" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div class="big">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/kQxvYAfkFyg" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div class="tall">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/UItWltVZZmE" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/np_FxE35QUo" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/IHLMEkWpVhA" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4xYu2WrygtQ" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/FlAWdxzxU8k" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div class="wide">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/oAPCPjnU1wA" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2pLT-olgUJs" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/OiC1rgCPmUQ" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div class="wide">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/mQYL_88MOe0" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/9bNVjz9nGZ4" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div class="wide">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ud6rwVkbovA" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div class="big">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/np_FxE35QUo" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/qo2Bb8bNBao" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/yD73z7Id-ko" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div class="big">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/UItWltVZZmE" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div class="tall">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ODkPdk0iwf8" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/zzGWwsEmL7U" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/np_FxE35QUo" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+     <div class="wide">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4xYu2WrygtQ" title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen></iframe>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <!--end masonry-->
+</body>
+
+</html>
